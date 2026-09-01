@@ -1,0 +1,53 @@
+/*
+ * Cloudvation brand theme
+ * Change these values to retheme the entire site without editing page files.
+ */
+:root {
+  --brand-violet: #543dcc;
+  --brand-violet-dark: #3f2ea3;
+  --brand-lilac: #8c7dff;
+  --brand-ink: #15122f;
+  --brand-soft: #f1efff;
+  --brand-surface: #fbfaff;
+  --brand-muted: #625d7d;
+  --brand-border: #dedaf4;
+
+  /* Existing semantic tokens used throughout the site. */
+  --ink: var(--brand-ink);
+  --navy: var(--brand-violet-dark);
+  --blue: var(--brand-violet);
+  --sky: var(--brand-lilac);
+  --ice: var(--brand-soft);
+  --mist: var(--brand-surface);
+  --slate: var(--brand-muted);
+  --line: var(--brand-border);
+}
+
+/* Palette-specific overrides for components that previously used fixed blues. */
+nav { color: var(--brand-muted); }
+.button:hover { background: var(--brand-violet-dark); }
+.text-link { color: var(--brand-violet-dark); }
+.hero {
+  background:
+    radial-gradient(circle at 83% 16%, var(--brand-lilac) 0, color-mix(in srgb, var(--brand-lilac) 23%, transparent) 16%, transparent 37%),
+    linear-gradient(135deg, #fff 0%, #fff 52%, var(--brand-soft) 100%);
+}
+.migration-card {
+  background: linear-gradient(145deg, var(--brand-violet-dark), var(--brand-violet) 65%, var(--brand-lilac));
+  box-shadow: 0 25px 50px color-mix(in srgb, var(--brand-violet) 20%, transparent);
+}
+.migration-card .eyebrow,
+.cta-band .eyebrow,
+.site-footer h3 { color: var(--brand-lilac); }
+.service-card:hover { border-color: var(--brand-lilac); }
+.trust-top > p,
+.narrow { color: var(--brand-muted); }
+.timeline { border-color: var(--brand-border); }
+.timeline div { border-color: var(--brand-border); }
+.timeline p { color: var(--brand-muted); }
+.site-footer p,
+.site-footer a { color: color-mix(in srgb, #fff 72%, var(--brand-lilac)); }
+.page-hero { background: linear-gradient(135deg, #fff, var(--brand-soft)); }
+.contact-form input:not([type='checkbox']),
+.contact-form select,
+.contact-form textarea { border-color: var(--brand-border); }

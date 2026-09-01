@@ -15,12 +15,11 @@ export default function Home() {
               <p className="eyebrow">Cloud migration, made practical</p>
               <h1>Move your business to the cloud with confidence.</h1>
               <p className="lede">
-                Cloudvation delivers zero-downtime AWS migrations designed to
-                keep your business running smoothly throughout the transition.
-                From initial risk assessment and cloud landing zones to phased
-                workload migration and post-launch cost optimization, our team
-                handles the heavy lifting so your engineers can stay focused on
-                building your core product.
+                Cloudvation delivers zero-downtime AWS migrations to keep your
+                business running smoothly. From risk assessment and landing
+                zones to phased migration and cost optimization, we handle the
+                heavy lifting so your engineers can stay focused on building
+                your core product.
               </p>
               <div className="actions">
                 <Link className="button" href="/contact">

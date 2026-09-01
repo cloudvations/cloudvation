@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { navItems } from '@/content/site';
-import { CloudvationLogo } from './CloudvationLogo';
 export function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -15,9 +14,17 @@ export function Header() {
           className="brand"
           href="/"
           onClick={() => setOpen(false)}
-          style={{ display: 'inline-flex', alignItems: 'center', gap: 4 }}
+          style={{ display: 'inline-flex', alignItems: 'center', gap: 10 }}
         >
-          <CloudvationLogo height={200} showText={true} />
+          <Image
+            className="brand-logo"
+            src="/cloudvation.png"
+            alt="Cloudvation"
+            width={42}
+            height={42}
+            priority
+          />
+          <strong>Cloud<span>vation</span></strong>
         </Link>
         <button
           className="menu-button"

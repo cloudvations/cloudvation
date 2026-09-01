@@ -51,3 +51,19 @@ nav { color: var(--brand-muted); }
 .contact-form input:not([type='checkbox']),
 .contact-form select,
 .contact-form textarea { border-color: var(--brand-border); }
+
+/* Auto-advancing migration-path accordion. */
+.accordion-item div[role='region'] {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  padding: 0 20px 0 38px;
+  opacity: 0;
+  transition: grid-template-rows 280ms ease, padding 280ms ease, opacity 200ms ease;
+}
+.accordion-item div[role='region'] p { overflow: hidden; }
+.accordion-item.open div[role='region'] {
+  grid-template-rows: 1fr;
+  padding-bottom: 17px;
+  opacity: 1;
+}

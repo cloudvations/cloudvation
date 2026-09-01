@@ -9,9 +9,10 @@ export const services = [
   {
     number: '01',
     title: 'Migration strategy & readiness',
-    short: 'A clear, risk-aware plan before a single workload moves.',
+    short:
+      'A risk-aware roadmap before a single workload moves. Eliminate downtime, map dependencies, and align stakeholders from day one.',
     detail:
-      'We examine your estate, dependencies, risk profile, and cost baseline to build a migration roadmap your team can act on.',
+      'We evaluate your full application portfolio, legacy infrastructure, technical dependencies, and cost baseline to construct a clear business case and operational plan. By identifying compliance requirements, skill gaps, and risk exposure early, we eliminate surprises and establish momentum before execution begins.',
     includes: [
       'Readiness assessment',
       'Dependency mapping',
@@ -21,9 +22,10 @@ export const services = [
   {
     number: '02',
     title: 'Cloud landing zones',
-    short: 'Secure foundations built to scale with your business.',
+    short:
+      'Secure, automated foundations built to scale. Standardize governance, access, and compliance across your cloud environment.',
     detail:
-      'Establish governed accounts, identity, networking, logging, and guardrails so every workload begins on solid ground.',
+      'We design and deploy automated multi-account environments configured with enterprise guardrails, network topology, and governance from day one. This ensures developer teams can launch workloads rapidly within pre-configured boundaries while maintaining strict compliance, centralized access controls, and operational auditability across all accounts.',
     includes: [
       'Identity & access design',
       'Network architecture',
@@ -33,17 +35,19 @@ export const services = [
   {
     number: '03',
     title: 'Application & data migration',
-    short: 'Phased delivery with less disruption to the work that matters.',
+    short:
+      'Low-risk, phased execution with zero business disruption. Move critical databases and services seamlessly in controlled waves.',
     detail:
-      'Move applications and data through carefully sequenced waves, with validation, rollback thinking, and transparent progress.',
+      'We transition legacy workloads, databases, and microservices into the cloud using structured, low-risk execution phases. By applying automated validation, schema transformations, and detailed fallback mechanisms for every wave, we guarantee business continuity and minimal impact on live end-user services.',
     includes: ['Wave planning', 'Data migration', 'Cutover support'],
   },
   {
     number: '04',
     title: 'Cloud optimization',
-    short: 'Better reliability, visibility, and cost control after go-live.',
+    short:
+      'Maximum performance, minimal spend. Gain immediate cost visibility, tighten security posture, and optimize performance post-launch.',
     detail:
-      'Turn a successful migration into a more resilient operating model with observability, security hardening, and FinOps practices.',
+      'Post-migration, we transform initial cloud adoption into a mature, high-performing operating model. We analyze usage patterns to rightsizing infrastructure, establish financial visibility across teams, and harden system reliability so your cloud environment continues to scale efficiently over time.',
     includes: ['Cost visibility', 'Observability', 'Reliability improvements'],
   },
 ];

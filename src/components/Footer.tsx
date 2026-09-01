@@ -20,7 +20,7 @@ export function Footer() {
         </div>
         <div>
           <h3>Get in touch</h3>
-          <a href="mailto:hello@cloudvation.com">hello@cloudvation.com</a>
+          <a href="mailto:sales@cloudvation.ca">sales@cloudvation.ca</a>
           <p>Toronto, Canada · Global delivery</p>
         </div>
         <div>

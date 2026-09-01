@@ -24,7 +24,7 @@ export default function ContactPage() {
               <h2>Bring us your cloud question.</h2>
               <p>
                 For general enquiries, email{' '}
-                <a href="mailto:hello@cloudvation.com">hello@cloudvation.com</a>
+                <a href="mailto:sales@cloudvation.ca">sales@cloudvation.ca</a>
                 .
               </p>
               <p>Toronto, Canada · Global delivery</p>
